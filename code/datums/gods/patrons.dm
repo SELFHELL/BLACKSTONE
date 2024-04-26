@@ -55,7 +55,7 @@ GLOBAL_LIST_EMPTY(patronlist)
 	name = "Necra"
 	domain = "Goddess of Death and the Afterlife"
 	summary = "The Veiled Lady, a feared but respected God who leads the dead."
-	worshippers = " Necromancers, The Dead, Gravekeepers"
+	worshippers = "The Dead, Gravekeepers, and Lost Souls"
 	t0 = /obj/effect/proc_holder/spell/invoked/lesser_heal
 	t1 = /obj/effect/proc_holder/spell/targeted/burialrite
 	t2 = /obj/effect/proc_holder/spell/targeted/churn

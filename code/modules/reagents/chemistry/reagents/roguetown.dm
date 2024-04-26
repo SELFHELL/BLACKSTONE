@@ -17,7 +17,7 @@
 	silent_toxin = TRUE
 	reagent_state = LIQUID
 	color = "#FA6464"
-	metabolization_rate = 0.1
+	metabolization_rate = 0.5
 	overdose_threshold = 30
 	toxpwr = 0
 
@@ -26,9 +26,9 @@
 		switch(pick(1, 2, 3))
 			if(1)
 				to_chat(M, "<span class='danger'>My eyes ache with</span>")
-				M.blur_eyes(3)
+				M.blur_eyes(2)
 			if(2)
-				M.emote("cough")
+				M.emote("weakly coughs")
 			if(3)
 				to_chat(M, "<span class='danger'>Rotten skin falls off my body</span>")
 				M.adjustBruteLoss(2)

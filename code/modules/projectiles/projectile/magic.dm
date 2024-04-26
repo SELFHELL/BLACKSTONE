@@ -540,7 +540,7 @@
 	. = ..()
 	if(iscarbon(target))
 		var/mob/living/carbon/M = target
-		M.reagents.add_reagent(/datum/reagent/toxin, 3)
+		M.reagents.add_reagent(/datum/reagent/toxin/sickness, 5)
 
 /obj/projectile/magic/sapping
 	name = "bolt of sapping"
